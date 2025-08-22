@@ -1,0 +1,29 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.3.1\my_project\mpu_test\build\bootloader\esp-idf\esptool_py && C:\Espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.3.1/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Espressif/frameworks/esp-idf-v5.3.1/my_project/mpu_test/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6880 bytes. 0x780 bytes (7%) free.
+[2/8] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/mpu_test.c.obj
+[3/8] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/mpu.c.obj
+C:/Espressif/frameworks/esp-idf-v5.3.1/my_project/mpu_test/main/mpu.c: In function 'mpu':
+C:/Espressif/frameworks/esp-idf-v5.3.1/my_project/mpu_test/main/mpu.c:124:21: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+  124 |         xTaskCreate(mpu_read, "mpu_read_task", 2048, NULL, 5, NULL);
+      |                     ^~~~~~~~
+      |                     |
+      |                     void (*)(void)
+In file included from C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/esp_additions/include/freertos/idf_additions.h:20,
+                 from C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:1533,
+                 from C:/Espressif/frameworks/esp-idf-v5.3.1/my_project/mpu_test/main/mpu.h:3,
+                 from C:/Espressif/frameworks/esp-idf-v5.3.1/my_project/mpu_test/main/mpu.c:1:
+C:/Espressif/frameworks/esp-idf-v5.3.1/components/freertos/FreeRTOS-Kernel/include/freertos/task.h:371:44: note: expected 'TaskFunction_t' {aka 'void (*)(void *)'} but argument is of type 'void (*)(void)'
+  371 |     BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+      |                             ~~~~~~~~~~~~~~~^~~~~~~~~~
+[4/8] Linking C static library esp-idf\main\libmain.a
+[5/8] Generating ld/sections.ld
+[6/8] Linking CXX executable mpu_test.elf
+[7/8] Generating binary image from built executable
+esptool.py v4.9.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated C:/Espressif/frameworks/esp-idf-v5.3.1/my_project/mpu_test/build/mpu_test.bin
+[8/8] cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.3.1\my_project\mpu_test\build\esp-idf\esptool_py && C:\Espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.3.1/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Espressif/frameworks/esp-idf-v5.3.1/my_project/mpu_test/build/partition_table/partition-table.bin C:/Espressif/frameworks/esp-idf-v5.3.1/my_project/mpu_test/build/mpu_test.bin"
+mpu_test.bin binary size 0x316e0 bytes. Smallest app partition is 0x100000 bytes. 0xce920 bytes (81%) free.

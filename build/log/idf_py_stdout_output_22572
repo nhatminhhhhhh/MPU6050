@@ -1,0 +1,237 @@
+:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.3.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Aug 22 2025 17:09:14[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.1[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0ac68h ( 44136) map[0m
+[0;32mI (120) esp_image: segment 1: paddr=0001ac90 vaddr=3ffb0000 size=02394h (  9108) load[0m
+[0;32mI (124) esp_image: segment 2: paddr=0001d02c vaddr=40080000 size=02fech ( 12268) load[0m
+[0;32mI (131) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=165b4h ( 91572) map[0m
+[0;32mI (166) esp_image: segment 4: paddr=000365dc vaddr=40082fec size=0b008h ( 45064) load[0m
+[0;32mI (191) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (191) boot: Disabling RNG early entropy source...[0m
+[0;32mI (203) cpu_start: Multicore app[0m
+[0;32mI (211) cpu_start: Pro cpu start user code[0m
+[0;32mI (211) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (211) app_init: Application information:[0m
+[0;32mI (214) app_init: Project name:     mpu_test[0m
+[0;32mI (219) app_init: App version:      c5f12b2-dirty[0m
+[0;32mI (224) app_init: Compile time:     Aug 22 2025 19:08:33[0m
+[0;32mI (230) app_init: ELF file SHA256:  4fd30c675...[0m
+[0;32mI (235) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (241) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (246) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (250) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (256) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (263) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (269) heap_init: At 3FFB2C98 len 0002D368 (180 KiB): DRAM[0m
+[0;32mI (275) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (281) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (288) heap_init: At 4008E000 len 00012000 (72 KiB): IRAM[0m
+[0;32mI (295) spi_flash: detected chip: generic[0m
+[0;32mI (298) spi_flash: flash io: dio[0m
+[0;33mW (302) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (315) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (327) main_task: Started on CPU0[0m
+[0;32mI (337) main_task: Calling app_main()[0m
+[0;32mI (1587) MPU_TEST: Rate Calibration: Roll: -1.338932, Pitch: -0.017557, Yaw: 0.313435[0m
+[0;32mI (2837) MPU_TEST: Rate Calibration: Roll: -1.334046, Pitch: -0.003511, Yaw: 0.311450[0m
+[0;32mI (4087) MPU_TEST: Rate Calibration: Roll: -1.334657, Pitch: -0.012824, Yaw: 0.304733[0m
+[0;32mI (5337) MPU_TEST: Rate Calibration: Roll: -1.338932, Pitch: -0.011756, Yaw: 0.317405[0m
+[0;32mI (6587) MPU_TEST: Rate Calibration: Roll: -1.324428, Pitch: 0.004427, Yaw: 0.310076[0m
+[0;32mI (7837) MPU_TEST: Rate Calibration: Roll: -1.329314, Pitch: -0.007786, Yaw: 0.312061[0m
+[0;32mI (9087) MPU_TEST: Rate Calibration: Roll: -1.331146, Pitch: 0.003664, Yaw: 0.307023[0m
+[0;32mI (10337) MPU_TEST: Rate Calibration: Roll: -1.322901, Pitch: -0.022137, Yaw: 0.312061[0m
+[0;32mI (11587) MPU_TEST: Rate Calibration: Roll: -1.336031, Pitch: -0.001527, Yaw: 0.308550[0m
+[0;32mI (12837) MPU_TEST: Rate Calibration: Roll: -1.324275, Pitch: 0.009313, Yaw: 0.309313[0m
+[0;32mI (14087) MPU_TEST: Rate Calibration: Roll: -1.327940, Pitch: -0.014046, Yaw: 0.314504[0m
+[0;32mI (15337) MPU_TEST: Rate Calibration: Roll: -1.336031, Pitch: 0.011450, Yaw: 0.312672[0m
+[0;32mI (16587) MPU_TEST: Rate Calibration: Roll: -1.336336, Pitch: -0.001221, Yaw: 0.311145[0m
+[0;32mI (17837) MPU_TEST: Rate Calibration: Roll: -1.334962, Pitch: -0.019084, Yaw: 0.316336[0m
+[0;32mI (19087) MPU_TEST: Rate Calibration: Roll: -1.333283, Pitch: -0.004885, Yaw: 0.310534[0m
+[0;32mI (20337) MPU_TEST: Rate Calibration: Roll: -1.321222, Pitch: -0.016031, Yaw: 0.310229[0m
+[0;32mI (21587) MPU_TEST: Rate Calibration: Roll: -1.338779, Pitch: 0.000916, Yaw: 0.310076[0m
+[0;32mI (22837) MPU_TEST: Rate Calibration: Roll: -1.329467, Pitch: -0.000611, Yaw: 0.306565[0m
+[0;32mI (24087) MPU_TEST: Rate Calibration: Roll: -1.329772, Pitch: -0.018168, Yaw: 0.303970[0m
+[0;32mI (25337) MPU_TEST: Rate Calibration: Roll: -1.342291, Pitch: 0.012061, Yaw: 0.311450[0m
+[0;32mI (26587) MPU_TEST: Rate Calibration: Roll: -1.341222, Pitch: -0.008702, Yaw: 0.304580[0m
+[0;32mI (27837) MPU_TEST: Rate Calibration: Roll: -1.338322, Pitch: -0.009466, Yaw: 0.309466[0m
+[0;32mI (29087) MPU_TEST: Rate Calibration: Roll: -1.326413, Pitch: -0.013130, Yaw: 0.315573[0m
+[0;32mI (30337) MPU_TEST: Rate Calibration: Roll: -1.321680, Pitch: 0.012214, Yaw: 0.309466[0m
+[0;32mI (31587) MPU_TEST: Rate Calibration: Roll: -1.336794, Pitch: -0.012061, Yaw: 0.307176[0m
+[0;32mI (32837) MPU_TEST: Rate Calibration: Roll: -1.332214, Pitch: 0.011756, Yaw: 0.305954[0m
+[0;32mI (34087) MPU_TEST: Rate Calibration: Roll: -1.328092, Pitch: 0.004885, Yaw: 0.312977[0m
+[0;32mI (35337) MPU_TEST: Rate Calibration: Roll: -1.313741, Pitch: 0.006565, Yaw: 0.316489[0m
+[0;32mI (36587) MPU_TEST: Rate Calibration: Roll: -1.328244, Pitch: 0.001985, Yaw: 0.304580[0m
+[0;32mI (37837) MPU_TEST: Rate Calibration: Roll: -1.323512, Pitch: 0.005802, Yaw: 0.308550[0m
+[0;32mI (39087) MPU_TEST: Rate Calibration: Roll: -1.327024, Pitch: -0.002290, Yaw: 0.314351[0m
+[0;32mI (40337) MPU_TEST: Rate Calibration: Roll: -1.318321, Pitch: 0.022901, Yaw: 0.312061[0m
+[0;32mI (41587) MPU_TEST: Rate Calibration: Roll: -1.322596, Pitch: -0.020916, Yaw: 0.310840[0m
+[0;32mI (42837) MPU_TEST: Rate Calibration: Roll: -1.323665, Pitch: 0.010840, Yaw: 0.310840[0m
+[0;32mI (44087) MPU_TEST: Rate Calibration: Roll: -1.320611, Pitch: -0.030992, Yaw: 0.310382[0m
+[0;32mI (45337) MPU_TEST: Rate Calibration: Roll: -1.324733, Pitch: 0.031298, Yaw: 0.309313[0m
+[0;32mI (46587) MPU_TEST: Rate Calibration: Roll: -1.320611, Pitch: -0.010992, Yaw: 0.307023[0m
+[0;32mI (47837) MPU_TEST: Rate Calibration: Roll: -1.320612, Pitch: 0.001985, Yaw: 0.304886[0m
+[0;32mI (49087) MPU_TEST: Rate Calibration: Roll: -1.334504, Pitch: -0.012366, Yaw: 0.304275[0m
+[0;32mI (50337) MPU_TEST: Rate Calibration: Roll: -1.323970, Pitch: -0.019389, Yaw: 0.303817[0m
+[0;32mI (51587) MPU_TEST: Rate Calibration: Roll: -1.323054, Pitch: 0.023817, Yaw: 0.306260[0m
+[0;32mI (52837) MPU_TEST: Rate Calibration: Roll: -1.324122, Pitch: -0.007176, Yaw: 0.310382[0m
+[0;32mI (54087) MPU_TEST: Rate Calibration: Roll: -1.329771, Pitch: -0.003206, Yaw: 0.314504[0m
+[0;32mI (55337) MPU_TEST: Rate Calibration: Roll: -1.322137, Pitch: -0.008244, Yaw: 0.306718[0m
+[0;32mI (56587) MPU_TEST: Rate Calibration: Roll: -1.330077, Pitch: -0.014351, Yaw: 0.311145[0m
+[0;32mI (57837) MPU_TEST: Rate Calibration: Roll: -1.338779, Pitch: -0.013130, Yaw: 0.310992[0m
+[0;32mI (59087) MPU_TEST: Rate Calibration: Roll: -1.328855, Pitch: 0.004580, Yaw: 0.312672[0m
+[0;32mI (60337) MPU_TEST: Rate Calibration: Roll: -1.324886, Pitch: 0.011298, Yaw: 0.312519[0m
+[0;32mI (61587) MPU_TEST: Rate Calibration: Roll: -1.324276, Pitch: -0.003969, Yaw: 0.317863[0m
+[0;32mI (62837) MPU_TEST: Rate Calibration: Roll: -1.321374, Pitch: -0.000611, Yaw: 0.314198[0m
+[0;32mI (64087) MPU_TEST: Rate Calibration: Roll: -1.332672, Pitch: -0.008702, Yaw: 0.309618[0m
+[0;32mI (65337) MPU_TEST: Rate Calibration: Roll: -1.323206, Pitch: 0.004122, Yaw: 0.306565[0m
+[0;32mI (66587) MPU_TEST: Rate Calibration: Roll: -1.332672, Pitch: -0.005496, Yaw: 0.315115[0m
+[0;32mI (67837) MPU_TEST: Rate Calibration: Roll: -1.330535, Pitch: -0.016183, Yaw: 0.308244[0m
+[0;32mI (69087) MPU_TEST: Rate Calibration: Roll: -1.330535, Pitch: 0.001374, Yaw: 0.309313[0m
+[0;32mI (70337) MPU_TEST: Rate Calibration: Roll: -1.328244, Pitch: -0.022748, Yaw: 0.316947[0m
+[0;32mI (71587) MPU_TEST: Rate Calibration: Roll: -1.329161, Pitch: 0.005344, Yaw: 0.305802[0m
+[0;32mI (72837) MPU_TEST: Rate Calibration: Roll: -1.327634, Pitch: 0.000763, Yaw: 0.310992[0m
+[0;32mI (74087) MPU_TEST: Rate Calibration: Roll: -1.323817, Pitch: 0.001527, Yaw: 0.306107[0m
+[0;32mI (75337) MPU_TEST: Rate Calibration: Roll: -1.326108, Pitch: 0.002290, Yaw: 0.310840[0m
+[0;32mI (76587) MPU_TEST: Rate Calibration: Roll: -1.324275, Pitch: -0.001527, Yaw: 0.311908[0m
+[0;32mI (77837) MPU_TEST: Rate Calibration: Roll: -1.324122, Pitch: -0.012366, Yaw: 0.310229[0m
+[0;32mI (79087) MPU_TEST: Rate Calibration: Roll: -1.326871, Pitch: 0.007939, Yaw: 0.310992[0m
+[0;32mI (80337) MPU_TEST: Rate Calibration: Roll: -1.329008, Pitch: 0.003969, Yaw: 0.311145[0m
+[0;32mI (81587) MPU_TEST: Rate Calibration: Roll: -1.333283, Pitch: -0.008397, Yaw: 0.307634[0m
+[0;32mI (82837) MPU_TEST: Rate Calibration: Roll: -1.324886, Pitch: 0.003664, Yaw: 0.305496[0m
+[0;32mI (84087) MPU_TEST: Rate Calibration: Roll: -1.319390, Pitch: 0.009160, Yaw: 0.310382[0m
+[0;32mI (85337) MPU_TEST: Rate Calibration: Roll: -1.326107, Pitch: -0.006565, Yaw: 0.309160[0m
+[0;32mI (86587) MPU_TEST: Rate Calibration: Roll: -1.330535, Pitch: -0.008397, Yaw: 0.310840[0m
+[0;32mI (87837) MPU_TEST: Rate Calibration: Roll: -1.330382, Pitch: 0.012214, Yaw: 0.307939[0m
+[0;32mI (89087) MPU_TEST: Rate Calibration: Roll: -1.323664, Pitch: -0.008855, Yaw: 0.309313[0m
+[0;32mI (90337) MPU_TEST: Rate Calibration: Roll: -1.333436, Pitch: -0.007786, Yaw: 0.313740[0m
+[0;32mI (91587) MPU_TEST: Rate Calibration: Roll: -1.327328, Pitch: 0.001374, Yaw: 0.312672[0m
+[0;32mI (92837) MPU_TEST: Rate Calibration: Roll: -1.328092, Pitch: -0.007481, Yaw: 0.309313[0m
+[0;32mI (94087) MPU_TEST: Rate Calibration: Roll: -1.330688, Pitch: 0.001985, Yaw: 0.310687[0m
+[0;32mI (95337) MPU_TEST: Rate Calibration: Roll: -1.329313, Pitch: -0.014656, Yaw: 0.313435[0m
+[0;32mI (96587) MPU_TEST: Rate Calibration: Roll: -1.345954, Pitch: -0.001832, Yaw: 0.306107[0m
+[0;32mI (97837) MPU_TEST: Rate Calibration: Roll: -1.334046, Pitch: -0.001985, Yaw: 0.305954[0m
+[0;32mI (99087) MPU_TEST: Rate Calibration: Roll: -1.336947, Pitch: -0.008550, Yaw: 0.309008[0m
+[0;32mI (100337) MPU_TEST: Rate Calibration: Roll: -1.329161, Pitch: 0.001527, Yaw: 0.308550[0m
+[0;32mI (101587) MPU_TEST: Rate Calibration: Roll: -1.329008, Pitch: 0.000305, Yaw: 0.309313[0m
+[0;32mI (102837) MPU_TEST: Rate Calibration: Roll: -1.323512, Pitch: 0.001985, Yaw: 0.309924[0m
+[0;32mI (104087) MPU_TEST: Rate Calibration: Roll: -1.333436, Pitch: -0.017099, Yaw: 0.310076[0m
+[0;32mI (105337) MPU_TEST: Rate Calibration: Roll: -1.342748, Pitch: 0.005954, Yaw: 0.309466[0m
+[0;32mI (106587) MPU_TEST: Rate Calibration: Roll: -1.332825, Pitch: -0.003053, Yaw: 0.312519[0m
+[0;32mI (107837) MPU_TEST: Rate Calibration: Roll: -1.331451, Pitch: -0.012824, Yaw: 0.307176[0m
+[0;32mI (109087) MPU_TEST: Rate Calibration: Roll: -1.338932, Pitch: 0.006412, Yaw: 0.315420[0m
+[0;32mI (110337) MPU_TEST: Rate Calibration: Roll: -1.333435, Pitch: -0.010840, Yaw: 0.311145[0m
+[0;32mI (111587) MPU_TEST: Rate Calibration: Roll: -1.345344, Pitch: -0.014198, Yaw: 0.312824[0m
+[0;32mI (112837) MPU_TEST: Rate Calibration: Roll: -1.334504, Pitch: 0.002443, Yaw: 0.305191[0m
+[0;32mI (114087) MPU_TEST: Rate Calibration: Roll: -1.323053, Pitch: -0.027328, Yaw: 0.317405[0m
+[0;32mI (115337) MPU_TEST: Rate Calibration: Roll: -1.331145, Pitch: -0.017405, Yaw: 0.308550[0m
+[0;32mI (116587) MPU_TEST: Rate Calibration: Roll: -1.322443, Pitch: 0.011908, Yaw: 0.309466[0m
+[0;32mI (117837) MPU_TEST: Rate Calibration: Roll: -1.320000, Pitch: 0.008244, Yaw: 0.314351[0m
+[0;32mI (119087) MPU_TEST: Rate Calibration: Roll: -1.331146, Pitch: -0.009618, Yaw: 0.309771[0m
+[0;32mI (120337) MPU_TEST: Rate Calibration: Roll: -1.329161, Pitch: 0.003206, Yaw: 0.317405[0m
+[0;32mI (121587) MPU_TEST: Rate Calibration: Roll: -1.325649, Pitch: -0.004885, Yaw: 0.311908[0m
+[0;32mI (122837) MPU_TEST: Rate Calibration: Roll: -1.319389, Pitch: -0.000153, Yaw: 0.313130[0m
+[0;32mI (124087) MPU_TEST: Rate Calibration: Roll: -1.323359, Pitch: -0.008702, Yaw: 0.313130[0m
+[0;32mI (125337) MPU_TEST: Rate Calibration: Roll: -1.328398, Pitch: 0.011908, Yaw: 0.304886[0m
+[0;32mI (126587) MPU_TEST: Rate Calibration: Roll: -1.320611, Pitch: -0.002901, Yaw: 0.310992[0m
+[0;32mI (127837) MPU_TEST: Rate Calibration: Roll: -1.331450, Pitch: 0.001221, Yaw: 0.311145[0m
+[0;32mI (129087) MPU_TEST: Rate Calibration: Roll: -1.323054, Pitch: 0.012519, Yaw: 0.313588[0m
+[0;32mI (130337) MPU_TEST: Rate Calibration: Roll: -1.320458, Pitch: -0.008092, Yaw: 0.313740[0m
+[0;32mI (131587) MPU_TEST: Rate Calibration: Roll: -1.323817, Pitch: -0.002290, Yaw: 0.310687[0m
+[0;32mI (132837) MPU_TEST: Rate Calibration: Roll: -1.325802, Pitch: -0.015878, Yaw: 0.318168[0m
+[0;32mI (134087) MPU_TEST: Rate Calibration: Roll: -1.326413, Pitch: -0.001527, Yaw: 0.312366[0m
+[0;32mI (135337) MPU_TEST: Rate Calibration: Roll: -1.312672, Pitch: 0.020916, Yaw: 0.305038[0m
+[0;32mI (136587) MPU_TEST: Rate Calibration: Roll: -1.325497, Pitch: 0.004733, Yaw: 0.307939[0m
+[0;32mI (137837) MPU_TEST: Rate Calibration: Roll: -1.331756, Pitch: -0.006260, Yaw: 0.310229[0m
+[0;32mI (139087) MPU_TEST: Rate Calibration: Roll: -1.327176, Pitch: 0.001221, Yaw: 0.306870[0m
+[0;32mI (140337) MPU_TEST: Rate Calibration: Roll: -1.326107, Pitch: 0.004275, Yaw: 0.312672[0m
+[0;32mI (141587) MPU_TEST: Rate Calibration: Roll: -1.329314, Pitch: -0.004275, Yaw: 0.306260[0m
+[0;32mI (142837) MPU_TEST: Rate Calibration: Roll: -1.340153, Pitch: -0.001985, Yaw: 0.309618[0m
+[0;32mI (144087) MPU_TEST: Rate Calibration: Roll: -1.321985, Pitch: 0.013588, Yaw: 0.311756[0m
+[0;32mI (145337) MPU_TEST: Rate Calibration: Roll: -1.327481, Pitch: 0.006260, Yaw: 0.312214[0m
+[0;32mI (146587) MPU_TEST: Rate Calibration: Roll: -1.326565, Pitch: 0.006107, Yaw: 0.306107[0m
+[0;32mI (147837) MPU_TEST: Rate Calibration: Roll: -1.329466, Pitch: -0.005344, Yaw: 0.310229[0m
+[0;32mI (149087) MPU_TEST: Rate Calibration: Roll: -1.323665, Pitch: 0.010687, Yaw: 0.312824[0m
+[0;32mI (150337) MPU_TEST: Rate Calibration: Roll: -1.314657, Pitch: -0.003817, Yaw: 0.311298[0m
+[0;32mI (151587) MPU_TEST: Rate Calibration: Roll: -1.322901, Pitch: 0.011145, Yaw: 0.292367[0m
+[0;32mI (152837) MPU_TEST: Rate Calibration: Roll: -1.317252, Pitch: 0.000611, Yaw: 0.303206[0m
+[0;32mI (154087) MPU_TEST: Rate Calibration: Roll: -1.321680, Pitch: -0.001069, Yaw: 0.307634[0m
+[0;32mI (155337) MPU_TEST: Rate Calibration: Roll: -1.329619, Pitch: -0.007328, Yaw: 0.305649[0m
+[0;32mI (156587) MPU_TEST: Rate Calibration: Roll: -1.329466, Pitch: -0.010382, Yaw: 0.313893[0m
+[0;32mI (157837) MPU_TEST: Rate Calibration: Roll: -1.327328, Pitch: -0.023664, Yaw: 0.318626[0m
+[0;32mI (159087) MPU_TEST: Rate Calibration: Roll: -1.329008, Pitch: -0.005649, Yaw: 0.312672[0m
+[0;32mI (160337) MPU_TEST: Rate Calibration: Roll: -1.329924, Pitch: -0.006260, Yaw: 0.305954[0m
+[0;32mI (161587) MPU_TEST: Rate Calibration: Roll: -1.321832, Pitch: -0.001221, Yaw: 0.308702[0m
+[0;32mI (162837) MPU_TEST: Rate Calibration: Roll: -1.327634, Pitch: -0.005954, Yaw: 0.309618[0m
+[0;32mI (164087) MPU_TEST: Rate Calibration: Roll: -1.319848, Pitch: 0.000458, Yaw: 0.299695[0m
+[0;32mI (165337) MPU_TEST: Rate Calibration: Roll: -1.333436, Pitch: -0.006565, Yaw: 0.309924[0m
+[0;32mI (166587) MPU_TEST: Rate Calibration: Roll: -1.327787, Pitch: -0.002901, Yaw: 0.309924[0m
+[0;32mI (167837) MPU_TEST: Rate Calibration: Roll: -1.330230, Pitch: 0.003206, Yaw: 0.309313[0m
+[0;32mI (169087) MPU_TEST: Rate Calibration: Roll: -1.333894, Pitch: 0.001069, Yaw: 0.307328[0m
+[0;32mI (170337) MPU_TEST: Rate Calibration: Roll: -1.333741, Pitch: 0.008702, Yaw: 0.314656[0m
+[0;32mI (171587) MPU_TEST: Rate Calibration: Roll: -1.327634, Pitch: 0.008397, Yaw: 0.308092[0m
+[0;32mI (172837) MPU_TEST: Rate Calibration: Roll: -1.326566, Pitch: -0.011298, Yaw: 0.301221[0m
+[0;32mI (174087) MPU_TEST: Rate Calibration: Roll: -1.337558, Pitch: -0.010382, Yaw: 0.308855[0m
+[0;32mI (175337) MPU_TEST: Rate Calibration: Roll: -1.334810, Pitch: 0.000153, Yaw: 0.310687[0m
+[0;32mI (176587) MPU_TEST: Rate Calibration: Roll: -1.337252, Pitch: -0.008702, Yaw: 0.305191[0m
+[0;32mI (177837) MPU_TEST: Rate Calibration: Roll: -1.336642, Pitch: 0.012366, Yaw: 0.308397[0m
+[0;32mI (179087) MPU_TEST: Rate Calibration: Roll: -1.328855, Pitch: -0.003206, Yaw: 0.307634[0m
+[0;32mI (180337) MPU_TEST: Rate Calibration: Roll: -1.342901, Pitch: -0.011908, Yaw: 0.309924[0m
+[0;32mI (181587) MPU_TEST: Rate Calibration: Roll: -1.329772, Pitch: 0.011298, Yaw: 0.304428[0m
+[0;32mI (182837) MPU_TEST: Rate Calibration: Roll: -1.331604, Pitch: -0.012977, Yaw: 0.307786[0m
+[0;32mI (184087) MPU_TEST: Rate Calibration: Roll: -1.324734, Pitch: 0.003511, Yaw: 0.311908[0m
+[0;32mI (185337) MPU_TEST: Rate Calibration: Roll: -1.338779, Pitch: -0.012672, Yaw: 0.313588[0m
+[0;32mI (186587) MPU_TEST: Rate Calibration: Roll: -1.327481, Pitch: -0.004885, Yaw: 0.313282[0m
+[0;32mI (187837) MPU_TEST: Rate Calibration: Roll: -1.326566, Pitch: -0.007786, Yaw: 0.310534[0m
+[0;32mI (189087) MPU_TEST: Rate Calibration: Roll: -1.323664, Pitch: -0.005954, Yaw: 0.301222[0m
+[0;32mI (190337) MPU_TEST: Rate Calibration: Roll: -1.329161, Pitch: -0.005802, Yaw: 0.311451[0m
+[0;32mI (191587) MPU_TEST: Rate Calibration: Roll: -1.329619, Pitch: -0.004275, Yaw: 0.306260[0m
+[0;32mI (192837) MPU_TEST: Rate Calibration: Roll: -1.327939, Pitch: -0.014351, Yaw: 0.312824[0m
+[0;32mI (194087) MPU_TEST: Rate Calibration: Roll: -1.339543, Pitch: -0.005038, Yaw: 0.307939[0m
+[0;32mI (195337) MPU_TEST: Rate Calibration: Roll: -1.338627, Pitch: 0.000000, Yaw: 0.303970[0m
+[0;32mI (196587) MPU_TEST: Rate Calibration: Roll: -1.332214, Pitch: 0.000458, Yaw: 0.301679[0m
+[0;32mI (197837) MPU_TEST: Rate Calibration: Roll: -1.327329, Pitch: -0.020611, Yaw: 0.310076[0m
+[0;32mI (199087) MPU_TEST: Rate Calibration: Roll: -1.334962, Pitch: -0.010229, Yaw: 0.305496[0m
+[0;32mI (200337) MPU_TEST: Rate Calibration: Roll: -1.322749, Pitch: 0.009924, Yaw: 0.306412[0m
+[0;32mI (201587) MPU_TEST: Rate Calibration: Roll: -1.329161, Pitch: -0.005191, Yaw: 0.309466[0m
+[0;32mI (202837) MPU_TEST: Rate Calibration: Roll: -1.336336, Pitch: 0.024275, Yaw: 0.298321[0m
+[0;32mI (204087) MPU_TEST: Rate Calibration: Roll: -1.338474, Pitch: -0.021069, Yaw: 0.314809[0m
+[0;32mI (205337) MPU_TEST: Rate Calibration: Roll: -1.339542, Pitch: 0.000763, Yaw: 0.292214[0m
+[0;32mI (206587) MPU_TEST: Rate Calibration: Roll: -1.335573, Pitch: -0.017710, Yaw: 0.319542[0m
+[0;32mI (207837) MPU_TEST: Rate Calibration: Roll: -1.343817, Pitch: 0.011450, Yaw: 0.312367[0m
+[0;32mI (209087) MPU_TEST: Rate Calibration: Roll: -1.327940, Pitch: 0.000611, Yaw: 0.314657[0m
+[0;32mI (210337) MPU_TEST: Rate Calibration: Roll: -1.328245, Pitch: -0.007328, Yaw: 0.303511[0m
+[0;32mI (211587) MPU_TEST: Rate Calibration: Roll: -1.343970, Pitch: -0.004122, Yaw: 0.310840[0m
+[0;32mI (212837) MPU_TEST: Rate Calibration: Roll: -1.334199, Pitch: -0.001679, Yaw: 0.308092[0m
+[0;32mI (214087) MPU_TEST: Rate Calibration: Roll: -1.327634, Pitch: 0.010687, Yaw: 0.306870[0m
+[0;32mI (215337) MPU_TEST: Rate Calibration: Roll: -1.337710, Pitch: -0.003664, Yaw: 0.310992[0m
+[0;32mI (216587) MPU_TEST: Rate Calibration: Roll: -1.328397, Pitch: -0.009313, Yaw: 0.310687[0m
+[0;32mI (217837) MPU_TEST: Rate Calibration: Roll: -1.329924, Pitch: 0.002137, Yaw: 0.308092[0m
+[0;32mI (219087) MPU_TEST: Rate Calibration: Roll: -1.333130, Pitch: -0.005496, Yaw: 0.311603[0m
+[0;32mI (220337) MPU_TEST: Rate Calibration: Roll: -1.340917, Pitch: -0.005802, Yaw: 0.312672[0m
+[0;32mI (221587) MPU_TEST: Rate Calibration: Roll: -1.329466, Pitch: 0.009924, Yaw: 0.308550[0m

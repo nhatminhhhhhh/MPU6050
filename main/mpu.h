@@ -14,7 +14,7 @@
 
 void kalman_1d(float KalmanState, float KalmanUncertainty, float KalmanInput, float KalmanMeasurement);
 void gyro_signals(void);
-void mpu_read(void);
+float mpu_read(void);
 void mpu_init(void);
 extern const char *TAG;
 extern float RateRoll, RatePitch, RateYaw;

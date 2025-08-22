@@ -13,13 +13,10 @@
 
 void app_main(void)
 {
-	// ESP_ERROR_CHECK(esp_netif_init());
-	// ESP_ERROR_CHECK(esp_event_loop_create_default());
-	 
-	// ESP_LOGI(TAG, "Error reset: %d", esp_reset_reason());
-    // ESP_LOGI(TAG, "Starting MPU...");
+
 	mpu_init();
 	while (1) {
-		mpu_read();
+		float roll = mpu_read();
+		printf("Roll Angle [°]: %.2f\n", roll);
 	}
 }

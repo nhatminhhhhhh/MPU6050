@@ -111,24 +111,21 @@ void mpu_init(void) {
 	RateCalibrationYaw/=2000;
 	LoopTimer=esp_timer_get_time();
 }
-void mpu_read(void) {
-	
+float mpu_read(void) {
 	gyro_signals();
-		RateRoll-=RateCalibrationRoll;
-		RatePitch-=RateCalibrationPitch;
-		RateYaw-=RateCalibrationYaw;
-		kalman_1d(KalmanAngleRoll, KalmanUncertaintyAngleRoll, RateRoll, AngleRoll);
-		KalmanAngleRoll=Kalman1DOutput[0]; 
-		KalmanUncertaintyAngleRoll=Kalman1DOutput[1];
-		kalman_1d(KalmanAnglePitch, KalmanUncertaintyAnglePitch, RatePitch, AnglePitch);
-		KalmanAnglePitch=Kalman1DOutput[0]; 
-		KalmanUncertaintyAnglePitch=Kalman1DOutput[1];
-		printf("Roll Angle [°] %.2f Pitch Angle [°] %.2f\n", KalmanAngleRoll, KalmanAnglePitch);
-		while ((esp_timer_get_time() - LoopTimer) < 4000);
-		LoopTimer=esp_timer_get_time();
-
-	// ESP_LOGI(TAG, "Rate Calibration: Roll: %f, Pitch: %f, Yaw: %f", 
-	// 		 RateCalibrationRoll, RateCalibrationPitch, RateCalibrationYaw);
+	RateRoll -= RateCalibrationRoll;
+	RatePitch -= RateCalibrationPitch;
+	RateYaw -= RateCalibrationYaw;
+	kalman_1d(KalmanAngleRoll, KalmanUncertaintyAngleRoll, RateRoll, AngleRoll);
+	KalmanAngleRoll = Kalman1DOutput[0];
+	KalmanUncertaintyAngleRoll = Kalman1DOutput[1];
+	kalman_1d(KalmanAnglePitch, KalmanUncertaintyAnglePitch, RatePitch, AnglePitch);
+	KalmanAnglePitch = Kalman1DOutput[0];
+	KalmanUncertaintyAnglePitch = Kalman1DOutput[1];
+	//printf("Roll Angle [°] %.2f Pitch Angle [°] %.2f\n", KalmanAngleRoll, KalmanAnglePitch);
+	while ((esp_timer_get_time() - LoopTimer) < 4000);
+	LoopTimer = esp_timer_get_time();
+	return KalmanAngleRoll;
 }
 
 // void mpu() {

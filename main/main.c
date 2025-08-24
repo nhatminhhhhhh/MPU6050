@@ -42,13 +42,14 @@ void app_main(void)
 	float static_data = 0.60;
 
 	while (1) {
-		float roll = mpu_read();
-		printf(">Static Data: %.2f,Roll Angle: %.2f\n", static_data, roll);
+		//float roll = mpu_read();
+		//printf(">Static Data: %.2f,Roll Angle: %.2f\n", static_data, roll);
 
 		// Example: fade LED brightness up and down
-		 //ledc_set_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_0, pid_calculate());
-		 //ledc_update_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_0);
-		 //printf("Output PWM: %d\n", pid_calculate());
+		//  ledc_set_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_0, pid_calculate());
+		//  ledc_update_duty(LEDC_HIGH_SPEED_MODE, LEDC_CHANNEL_0);
+		//  printf("Output PWM: %d\n", pid_calculate());
+		pid_calculate();
 		
 		//vTaskDelay(pdMS_TO_TICKS(10));
 	}

@@ -11,7 +11,7 @@
 #include "driver/ledc.h"
 #include "driver/gpio.h"
 
-int pid_calculate();
+void pid_calculate();
 
 
 

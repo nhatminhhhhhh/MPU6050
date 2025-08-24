@@ -1,0 +1,2129 @@
+ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (POWERON_RESET),boot:0x13 (S0x1 (PO_FLASH_BOOT)
+configsip: 0, SPI�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.3.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Aug 22 2025 17:09:14[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.1[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0ade0h ( 44512) map[0m
+[0;32mI (120) esp_image: segment 1: paddr=0001ae08 vaddr=3ffb0000 size=023fch (  9212) load[0m
+[0;32mI (124) esp_image: segment 2: paddr=0001d20c vaddr=40080000 size=02e0ch ( 11788) load[0m
+[0;32mI (131) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=16bf8h ( 93176) map[0m
+[0;32mI (166) esp_image: segment 4: paddr=00036c20 vaddr=40082e0c size=0b3d0h ( 46032) load[0m
+[0;32mI (192) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (192) boot: Disabling RNG early entropy source...[0m
+[0;32mI (204) cpu_start: Multicore app[0m
+[0;32mI (212) cpu_start: Pro cpu start user code[0m
+[0;32mI (212) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (212) app_init: Application information:[0m
+[0;32mI (215) app_init: Project name:     mpu_test[0m
+[0;32mI (220) app_init: App version:      c5d8bd8-dirty[0m
+[0;32mI (225) app_init: Compile time:     Aug 23 2025 03:44:03[0m
+[0;32mI (231) app_init: ELF file SHA256:  ee944e6ff...[0m
+[0;32mI (237) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (242) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (247) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (252) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (257) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (264) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (270) heap_init: At 3FFB2DA0 len 0002D260 (180 KiB): DRAM[0m
+[0;32mI (276) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (282) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (289) heap_init: At 4008E1DC len 00011E24 (71 KiB): IRAM[0m
+[0;32mI (296) spi_flash: detected chip: generic[0m
+[0;32mI (300) spi_flash: flash io: dio[0m
+[0;33mW (303) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (317) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (328) main_task: Started on CPU0[0m
+[0;32mI (338) main_task: Calling app_main()[0m
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (2618) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (2618) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (2638) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (2638) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (2658) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (2658) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (2668) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (2668) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (2688) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (2688) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (2708) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (2708) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (2728) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (2728) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (2748) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (2748) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (2758) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (2758) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (2778) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (2778) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (2798) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (2798) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (2818) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (2818) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (2828) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (2828) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (2848) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (2848) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (2868) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (2868) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (2888) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (2888) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (2898) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (2898) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (2918) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (2918) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (2938) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (2938) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (2958) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (2958) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (2978) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (2978) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (2988) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (2988) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3008) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3008) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3028) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3028) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3048) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3048) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3058) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3058) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3078) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3078) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3098) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3098) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3118) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3118) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3128) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3128) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3148) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3148) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3168) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3168) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3188) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3188) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3208) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3208) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3218) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3218) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3238) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3238) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3258) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3258) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3278) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3278) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3288) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3288) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3308) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3308) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3328) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3328) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3348) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3348) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3368) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3368) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3378) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3378) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3398) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3398) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3418) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3418) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3438) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3438) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3448) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3448) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3468) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3468) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3488) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3488) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3508) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3508) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3518) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3518) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3538) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3538) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3558) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3558) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3578) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3578) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3598) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3598) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3608) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3608) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3628) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3628) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3648) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3648) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3668) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3668) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3678) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3678) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3698) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3698) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3718) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3718) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3738) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3738) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3748) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3748) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3768) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3768) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3788) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3788) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3808) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3808) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3828) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3828) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3838) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3838) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3858) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3858) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3878) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3878) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3898) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3898) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3908) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3908) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3928) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3928) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3948) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3948) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3968) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3968) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3978) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3978) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (3998) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (3998) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4018) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4018) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4038) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4038) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4058) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4058) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4068) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4068) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4088) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4088) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4108) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4108) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4128) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4128) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4138) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4138) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4158) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4158) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4178) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4178) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4198) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4198) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4218) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4218) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4228) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4228) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4248) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4248) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4268) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4268) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4288) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4288) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4298) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4298) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4318) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4318) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4338) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4338) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4358) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4358) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4368) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4368) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4388) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4388) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4408) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4408) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4428) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4428) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4438) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4438) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4458) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4458) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4478) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4478) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4498) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4498) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4518) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4518) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4528) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4528) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4548) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4548) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4568) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4568) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4588) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4588) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4598) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4598) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4618) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4618) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4638) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4638) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4658) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4658) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4678) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4678) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4688) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4688) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4708) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4708) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4728) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4728) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4748) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4748) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4758) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4758) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4778) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4778) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4798) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4798) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4818) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4818) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4828) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4828) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4848) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4848) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4868) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4868) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4888) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4888) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4908) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4908) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4918) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4918) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4938) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4938) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4958) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4958) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4978) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4978) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (4988) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (4988) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5008) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5008) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5028) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5028) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5048) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5048) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5068) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5068) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5078) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5078) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5098) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5098) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5118) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5118) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5138) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5138) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5148) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5148) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5168) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5168) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5188) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5188) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5208) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5208) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5218) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5218) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5238) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5238) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5258) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5258) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5278) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5278) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5288) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5288) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5308) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5308) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5328) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5328) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5348) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5348) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5368) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5368) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5378) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5378) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5398) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5398) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5418) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5418) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5438) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5438) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5448) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5448) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5468) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5468) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5488) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5488) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5508) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5508) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5528) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5528) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5538) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5538) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5558) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5558) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5578) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5578) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5598) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5598) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5608) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5608) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5628) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5628) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5648) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5648) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5668) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5668) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5678) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5678) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5698) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5698) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5718) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5718) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5738) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5738) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5758) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5758) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5768) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5768) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5788) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5788) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5808) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5808) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5828) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5828) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5838) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5838) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5858) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5858) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5878) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5878) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5898) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5898) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5918) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5918) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5928) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5928) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5948) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5948) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5968) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5968) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5988) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5988) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (5998) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (5998) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6018) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6018) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6038) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6038) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6058) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6058) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6068) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6068) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6088) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6088) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6108) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6108) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6128) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6128) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6138) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6138) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6158) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6158) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6178) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6178) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6198) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6198) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6218) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6218) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6228) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6228) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6248) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6248) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6268) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6268) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6288) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6288) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6298) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6298) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6318) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6318) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6338) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6338) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6358) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6358) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6378) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6378) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6388) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6388) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6408) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6408) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6428) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6428) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6448) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6448) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6458) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6458) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6478) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6478) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6498) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6498) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6518) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6518) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6528) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6528) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6548) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6548) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6568) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6568) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6588) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6588) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6608) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6608) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6618) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6618) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6638) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6638) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6658) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6658) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6678) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6678) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6688) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6688) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6708) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6708) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6728) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6728) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6748) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6748) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6768) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6768) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6778) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6778) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6798) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6798) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6818) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6818) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6838) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6838) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6848) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6848) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6868) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6868) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6888) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6888) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6908) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6908) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6918) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6918) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6938) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6938) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6958) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6958) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6978) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6978) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (6988) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (6988) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7008) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7008) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7028) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7028) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7048) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7048) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7068) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7068) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7078) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7078) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7098) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7098) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7118) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7118) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7138) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7138) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7148) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7148) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7168) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7168) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7188) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7188) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7208) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7208) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7228) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7228) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7238) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7238) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7258) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7258) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7278) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7278) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7298) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7298) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7308) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7308) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7328) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7328) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7348) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7348) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7368) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7368) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7378) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7378) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7398) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7398) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7418) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7418) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7438) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7438) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7458) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7458) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7468) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7468) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7488) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7488) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7508) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7508) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7528) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7528) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7538) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7538) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7558) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7558) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7578) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7578) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7598) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7598) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7618) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7618) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7628) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7628) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7648) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7648) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7668) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7668) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7688) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7688) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7698) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7698) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7718) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7718) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7738) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7738) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7758) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7758) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7768) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7768) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7788) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7788) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7808) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7808) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7828) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7828) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7838) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7838) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7858) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7858) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7878) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7878) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7898) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7898) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7918) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7918) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7928) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7928) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7948) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7948) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7968) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7968) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7988) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7988) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (7998) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (7998) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8018) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8018) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8038) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8038) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8058) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8058) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8078) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8078) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8088) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8088) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8108) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8108) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8128) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8128) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8148) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8148) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8158) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8158) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8178) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8178) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8198) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8198) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8218) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8218) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8228) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8228) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8248) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8248) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8268) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8268) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8288) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8288) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8308) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8308) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8318) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8318) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8338) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8338) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8358) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8358) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8378) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8378) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8388) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8388) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8408) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8408) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8428) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8428) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8448) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8448) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8468) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8468) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8478) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8478) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8498) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8498) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8518) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8518) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8538) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8538) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8548) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8548) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8568) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8568) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8588) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8588) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8608) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8608) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8618) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8618) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8638) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8638) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8658) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8658) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8678) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8678) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8688) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8688) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8708) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8708) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8728) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8728) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8748) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8748) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8768) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8768) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8778) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8778) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8798) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8798) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8818) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8818) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8838) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8838) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8848) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8848) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8868) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8868) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8888) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8888) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8908) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8908) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8928) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8928) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8938) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8938) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8958) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8958) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8978) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8978) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (8998) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (8998) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9008) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9008) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9028) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9028) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9048) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9048) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9068) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9068) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9078) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9078) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9098) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9098) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9118) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9118) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9138) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9138) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9158) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9158) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9168) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9168) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9188) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9188) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9208) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9208) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9228) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9228) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9238) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9238) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9258) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9258) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9278) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9278) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9298) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9298) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9318) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9318) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9328) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9328) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9348) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9348) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9368) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9368) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9388) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9388) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9398) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9398) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9418) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9418) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9438) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9438) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9458) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9458) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9468) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9468) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9488) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9488) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9508) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9508) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9528) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9528) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9538) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9538) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9558) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9558) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9578) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9578) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9598) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9598) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9618) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9618) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9628) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9628) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9648) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9648) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9668) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9668) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9688) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9688) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9698) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9698) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9718) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9718) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9738) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9738) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9758) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9758) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9778) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9778) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9788) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9788) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9808) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9808) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9828) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9828) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9848) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9848) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9858) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9858) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9878) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9878) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9898) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9898) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9918) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9918) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9928) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9928) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9948) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9948) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9968) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9968) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (9988) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (9988) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10008) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10008) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10018) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10018) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10038) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10038) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10058) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10058) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10078) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10078) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10098) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10098) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10108) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10108) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10128) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10128) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10148) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10148) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10168) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10168) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10178) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10178) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10198) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10198) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10218) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10218) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10238) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10238) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10248) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10248) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10268) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10268) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10288) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10288) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10308) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10308) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10328) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10328) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10348) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10348) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10358) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10358) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10378) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10378) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10398) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10398) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10418) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10418) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10438) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10438) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10448) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10448) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10468) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10468) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10488) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10488) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10508) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10508) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10528) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10528) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10548) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10548) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10558) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10558) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10578) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10578) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10598) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10598) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10618) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10618) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10638) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10638) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10648) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10648) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10668) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10668) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10688) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10688) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10708) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10708) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10718) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10718) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10738) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10738) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10758) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10758) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10778) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10778) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10788) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10788) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10808) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10808) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10828) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10828) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10848) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10848) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10858) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10858) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10878) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10878) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10898) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10898) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10918) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10918) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10928) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10928) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10948) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10948) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10968) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10968) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (10988) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (10988) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (11008) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (11008) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (11018) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (11018) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (11038) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (11038) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (11058) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (11058) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (11078) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (11078) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (11098) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (11098) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (11118) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (11118) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (11128) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (11128) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (11148) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (11148) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (11168) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (11168) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (11188) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (11188) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (11208) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (11208) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (11218) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (11218) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (11238) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (11238) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (11258) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (11258) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (11278) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (11278) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (11288) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (11288) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (11308) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (11308) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (11328) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (11328) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (11348) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (11348) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (11358) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (11358) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (11378) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (11378) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (11398) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (11398) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (11418) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (11418) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (11428) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (11428) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (11448) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (11448) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (11468) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (11468) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (11488) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (11488) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (11498) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (11498) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan
+[0;31mE (11518) ledc: ledc_set_duty(803): LEDC is not initialized[0m
+[0;31mE (11518) ledc: ledc_update_duty(729): LEDC is not initialized[0m
+Output PWM: 0
+>Static Data: 0.60,Roll Angle: nan

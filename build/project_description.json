@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "mpu_test",
-    "project_version":    "21e5221-dirty",
+    "project_version":    "c5d8bd8-dirty",
     "project_path":       "C:/Espressif/frameworks/esp-idf-v5.3.1/my_project/mpu_test",
     "idf_path":           "C:/Espressif/frameworks/esp-idf-v5.3.1",
     "build_dir":          "C:/Espressif/frameworks/esp-idf-v5.3.1/my_project/mpu_test/build",
@@ -1180,7 +1180,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "C:/Espressif/frameworks/esp-idf-v5.3.1/my_project/mpu_test/build/esp-idf/main/libmain.a",
-            "sources": [ "C:/Espressif/frameworks/esp-idf-v5.3.1/my_project/mpu_test/main/mpu_test.c", "C:/Espressif/frameworks/esp-idf-v5.3.1/my_project/mpu_test/main/mpu.c" ],
+            "sources": [ "C:/Espressif/frameworks/esp-idf-v5.3.1/my_project/mpu_test/main/mpu_test.c", "C:/Espressif/frameworks/esp-idf-v5.3.1/my_project/mpu_test/main/mpu.c", "C:/Espressif/frameworks/esp-idf-v5.3.1/my_project/mpu_test/main/pid.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {
